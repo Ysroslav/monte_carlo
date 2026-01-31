@@ -1,0 +1,5 @@
+[workspace]
+members = ["servers/bd-handler",
+"servers/request-handler",
+    ]
+resolver = "2"

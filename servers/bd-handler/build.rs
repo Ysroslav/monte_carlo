@@ -1,0 +1,5 @@
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    // Путь относительно корня проекта
+    tonic_build::compile_protos("../../proto/data.proto")?;
+    Ok(())
+}
